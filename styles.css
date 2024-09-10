@@ -1,0 +1,74 @@
+
+body{
+    background-color: rgb(85, 103, 156);
+}
+#top{
+    text-align:center;
+    background-color: rgb(124, 147, 195);
+    border: 1pt solid black;
+    border-radius: 10pt;
+}
+
+h2,h3,h5{
+    color: rgb(30, 42, 94);
+    /* font-size: large; */
+    font-family: Courier New,
+    Courier,Lucida Sans Typewriter,
+    Lucida Typewriter,monospace;
+}
+
+h1{
+    font-size: x-large;
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+    color: rgb(30, 42, 94);
+}
+#golf{
+    width: 300px;
+    border: 2pt solid rgb(30, 42, 94);
+    border-radius: 5px;
+    
+}
+#mid{
+    text-align:center;
+    background-color: rgb(124, 147, 195);
+    border: 1pt solid black;
+    border-radius: 10pt;
+}
+
+#b1{
+    text-align:center;
+    background-color: rgb(124, 147, 195);
+    border: 1pt solid black;
+    border-radius: 10pt;
+}
+#b2{
+    text-align:center;
+    background-color: rgb(124, 147, 195);
+    border: 1pt solid black;
+    border-radius: 10pt; 
+}
+/* 
+.Skill-head{
+    color:rgb(30, 42, 94)
+} */
+
+a{
+    color:rgb(30, 42, 94);
+    font-size: 75%;
+}
+
+a:hover{
+    color:blue
+}
+
+/* a:visited{
+    color:grey
+} */
+/* #skills_table{
+    border: solid 1px;
+} */
+
+/* #skills_table td{
+    border: dashed 1px;
+    text-align:center;
+} */
