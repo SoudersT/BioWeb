@@ -47,6 +47,12 @@ h1{
     border: 1pt solid black;
     border-radius: 10pt; 
 }
+#sc1,#sc2,#sc3{
+    width: 200px;
+    height: 200px;
+    border: 2pt solid rgb(30, 42, 94);
+    border-radius: 5px;
+}
 /* 
 .Skill-head{
     color:rgb(30, 42, 94)
@@ -54,11 +60,20 @@ h1{
 
 a{
     color:rgb(30, 42, 94);
-    font-size: 75%;
+    /* font-size: 75%; */
 }
 
 a:hover{
     color:blue
+}
+footer{
+    color:rgb(30, 42, 94);
+}
+#hobbies{
+    background-color: rgb(124, 147, 195);
+    text-align:center;
+    border: 1pt solid black;
+    border-radius: 10pt; 
 }
 
 /* a:visited{
