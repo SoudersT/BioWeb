@@ -75,6 +75,12 @@ footer{
     border: 1pt solid black;
     border-radius: 10pt; 
 }
+#golf2,#game,#lifting{
+    width: 200px;
+    height: 200px;
+    border: 1pt solid black;
+    border-radius: 10pt; 
+}
 
 /* a:visited{
     color:grey
