@@ -1,94 +1,137 @@
-
-body{
+/* Body styling */
+body {
     background-color: rgb(85, 103, 156);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-#top{
-    text-align:center;
+
+/* Top section styling */
+#top {
+    text-align: center;
     background-color: rgb(124, 147, 195);
     border: 1pt solid black;
     border-radius: 10pt;
+    margin: 20px;
+    padding: 10px;
+    width:90%;
 }
 
-h2,h3,h5{
+/* Heading styles */
+h1, h2, h3, h5 {
     color: rgb(30, 42, 94);
-    font-family: Courier New,
-    Courier,Lucida Sans Typewriter,
-    Lucida Typewriter,monospace;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
 
-h1{
+h1 {
     font-size: x-large;
-    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
-    color: rgb(30, 42, 94);
+    padding-bottom: 10px;
 }
-#golf{
+
+h2, h3, h5 {
+    margin-bottom: 10px;
+}
+
+/* Golf section */
+#golf {
     width: 300px;
+    border: 10pt solid rgb(30, 42, 94);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Mid and Button sections styling */
+#mid, #b1, #b2{
+    text-align: center;
+    background-color: rgb(124, 147, 195);
+    border: 1pt solid black;
+    border-radius: 10pt;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Square containers */
+#sc1, #sc2, #sc3 {
+    width: 200px;
+    height: 200px;
     border: 2pt solid rgb(30, 42, 94);
     border-radius: 5px;
+    margin: 10px;
+}
+
+/* Links styling */
+a {
+    color: rgb(30, 42, 94);
+}
+
+a:hover {
+    color: blue;
+    padding-left: 5px;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    color: rgb(30, 42, 94);
+    margin-top: 20px;
     
 }
-#mid{
-    text-align:center;
+
+/* Hobbies section */
+#hobbies {
     background-color: rgb(124, 147, 195);
+    text-align: center;
     border: 1pt solid black;
     border-radius: 10pt;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
-#b1{
-    text-align:center;
-    background-color: rgb(124, 147, 195);
-    border: 1pt solid black;
-    border-radius: 10pt;
-}
-#b2{
-    text-align:center;
-    background-color: rgb(124, 147, 195);
-    border: 1pt solid black;
-    border-radius: 10pt; 
-}
-#sc1,#sc2,#sc3{
-    width: 200px;
-    height: 200px;
-    border: 2pt solid rgb(30, 42, 94);
-    border-radius: 5px;
-}
-/* 
-.Skill-head{
-    color:rgb(30, 42, 94)
-} */
-
-a{
-    color:rgb(30, 42, 94);
-    /* font-size: 75%; */
-}
-
-a:hover{
-    color:blue
-}
-footer{
-    color:rgb(30, 42, 94);
-}
-#hobbies{
-    background-color: rgb(124, 147, 195);
-    text-align:center;
-    border: 1pt solid black;
-    border-radius: 10pt; 
-}
-#golf2,#game,#lifting{
+/* Hobbies sub-sections */
+#golf2, #game, #lifting {
     width: 200px;
     height: 200px;
     border: 1pt solid black;
-    border-radius: 10pt; 
+    border-radius: 10pt;
+    padding: 15px;
+    margin: 10px;
 }
 
-/* a:visited{
-    color:grey
-} */
-/* #skills_table{
-    border: solid 1px;
-} */
+/* Utility classes */
+.bold {
+    font-weight: bold;
+}
 
-/* #skills_table td{
-    border: dashed 1px;
-    text-align:center;
-} */
+.big {
+    font-size: x-large;
+}
+
+/* Flex container */
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width:90%;
+}
+
+/* Section paragraph styling */
+section p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Child selector */
+section > h3 {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+/* Adjacent sibling selector */
+h3 + ul {
+    color: #3c3c55;
+    margin-top: 5px;
+}
